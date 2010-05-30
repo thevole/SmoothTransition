@@ -26,7 +26,7 @@
 */
 
 - (void) animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissModalViewControllerAnimated:NO];
 }
 
 - (void)handleTap:(UITapGestureRecognizer *)recognizer {
